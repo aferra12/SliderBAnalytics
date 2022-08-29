@@ -1,2 +1,20 @@
-# SliderBAnalytics
-Deep Dive on Slider B Pitches
+“Slider B” Deep Dive
+By: AJ Ferrara
+
+There has been a lot of talk over the past few years about the increased effectiveness of pitchers executing high-spin rate fastballs up in the strike zone. This approach questioned the assumption of past decades where pitchers were instructed to attach hitters with the fastball around the level of their knees. The idea behind the knee-high fastballs was that the only thing a hitter could do with that pitch was pound it into the ground (leading to increased outs). But as in any good free market competition, swing paths changed over time and more hitters began to systematically attempt to elevate the launch of the baseball, thereby neutralizing pitchers’ knee-high offerings. However, for many players without incredible swing patterns, this elevation approach enabled their swings to be exploited by the high fastball, which we are now seeing in today’s version of the game.
+
+As hitters will enviably begin to adjust to the rise in usage of high fastballs, I wanted to do a deep dive on a pitch location that arguably challenges the most fundamental baseball thought conventions: off-speed pitches thrown up in the zone.
+
+These off-speed pitches thrown up in the zone have been labeled for centuries as “hangers”, “meatballs”, and “mistake” pitches. But as with many baseball assumptions, I wanted to see if there was an actual statistical basis for these monikers or if we have been lulled into accepting the baseball lore about them.
+
+This idea started when I was playing college baseball and we would split the strike zone into 9 boxes and assign them a letter A-I (from a pitcher’s perspective, snaking from top left to bottom right) so that as pitchers, we could converse about different pitches by referring to their type and location (for example, Fastball B was a fastball thrown at the top-middle of the zone). We would always fool around and tease our teammates if in bullpens they were trying to throw a slider in the dirt, but it wound up being, as we called it, a “Slider B”. And whenever it happened in a game, all the pitchers in the dugout would yell, “Slider B!”. However, I noticed over the course of a few seasons that “Slider B” would get batters out way more often than you would think for a “mistake” pitch. Of course, this is anecdotal and maybe it felt that way to me because I liked yelling “Slider B!” at my teammates, but it dawned on me that maybe “Slider B” is a more effective pitch than people realize. This is what this article hopes to uncover.
+
+My approach for the research is this: compare off-speed pitches up in the strike zone with other type-location pairs of pitches. The simplification I am making for this preliminary study is that I will consider all off-speed pitches up in the zone the same (regardless of pitch quality). This simplification means that I will be lumping together good pitches and true “mistake” pitches. I could compare the pitch movement profile to the average movement profile for that pitcher and discard the pitches that aren’t representative of the normal movement distribution (true “mistake” pitches), but in order to limit complexity I won’t be doing that here.
+
+Below is the Python script that I wrote to generate some preliminary graphical and statistical findings. 
+
+Based on the deep dive, there seems to be some statistical basis for the effectiveness of “Slider B” pitches. In this first iteration, I chose to focus on a graphical approach and a rough calculation of batting average to get a baseline idea of research. Now that the foundation, is in place the deep dive can be scaled up to include more advanced metrics and statistical techniques, some of which I alluded to above.
+
+For the beginning of this research, the question of whether off-speed pitches located up in the zone, or “Slider B”, can be an effective pitch is showing signs that it can be more effective than people previously had imagined. There is obviously much more work to be done, but I hope that with these preliminary findings, others may begin to question other baseball lores and assumptions like the “hanger” assumption that this deep dive looks at.
+![image](https://user-images.githubusercontent.com/60248089/187230393-c7f0d78f-b8ef-447d-a0fd-a37eab94e5fe.png)
+
