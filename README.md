@@ -1,5 +1,4 @@
-“Slider B” Deep Dive
-By: AJ Ferrara
+# “Slider B” Deep Dive -- AJ Ferrara
 
 There has been a lot of talk over the past few years about the increased effectiveness of pitchers executing high-spin rate fastballs up in the strike zone. This approach questioned the assumption of past decades where pitchers were instructed to attach hitters with the fastball around the level of their knees. The idea behind the knee-high fastballs was that the only thing a hitter could do with that pitch was pound it into the ground (leading to increased outs). But as in any good free market competition, swing paths changed over time and more hitters began to systematically attempt to elevate the launch of the baseball, thereby neutralizing pitchers’ knee-high offerings. However, for many players without incredible swing patterns, this elevation approach enabled their swings to be exploited by the high fastball, which we are now seeing in today’s version of the game.
 
@@ -16,5 +15,4 @@ Below is the Python script that I wrote to generate some preliminary graphical a
 Based on the deep dive, there seems to be some statistical basis for the effectiveness of “Slider B” pitches. In this first iteration, I chose to focus on a graphical approach and a rough calculation of batting average to get a baseline idea of research. Now that the foundation, is in place the deep dive can be scaled up to include more advanced metrics and statistical techniques, some of which I alluded to above.
 
 For the beginning of this research, the question of whether off-speed pitches located up in the zone, or “Slider B”, can be an effective pitch is showing signs that it can be more effective than people previously had imagined. There is obviously much more work to be done, but I hope that with these preliminary findings, others may begin to question other baseball lores and assumptions like the “hanger” assumption that this deep dive looks at.
-![image](https://user-images.githubusercontent.com/60248089/187230393-c7f0d78f-b8ef-447d-a0fd-a37eab94e5fe.png)
 
